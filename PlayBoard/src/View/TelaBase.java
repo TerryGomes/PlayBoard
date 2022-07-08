@@ -1,20 +1,21 @@
-package Tela;
+package View;
 
 import javax.swing.JFrame;
 
-public class TelaMenu extends TelaPrincipal
-
+public class TelaBase extends JFrame
 {
+	private static final long serialVersionUID = 1L;
 
-	public TelaMenu()
+	public TelaBase()
 	{
-		setTitle("Tela Principal");
+		setTitle("Menu");
 		setSize(1024, 768);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		setVisible(true);
 		setResizable(false);
 		setLayout(null);
+
 	}
 
 }
