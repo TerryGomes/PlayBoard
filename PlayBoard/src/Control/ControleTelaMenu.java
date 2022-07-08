@@ -3,6 +3,7 @@ package Control;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import View.TelaDigitando;
 import View.TelaMenu;
 
 public class ControleTelaMenu implements ActionListener
@@ -25,6 +26,8 @@ public class ControleTelaMenu implements ActionListener
 	{
 		if (e.getSource() == tela.getCmd_novo())
 		{
+			new TelaDigitando();
+			tela.setVisible(false);
 		}
 		else if (e.getSource() == tela.getCmd_cadsatro())
 		{
