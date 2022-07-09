@@ -16,11 +16,6 @@ public class ControleTelaMenu implements ActionListener
 
 	}
 
-	public static void mostrarTelaMenu()
-	{
-		tela.setVisible(true);
-	}
-
 	@Override
 	public void actionPerformed(ActionEvent e)
 	{

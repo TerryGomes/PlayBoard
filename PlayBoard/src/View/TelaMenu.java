@@ -42,6 +42,7 @@ public class TelaMenu extends TelaBase
 		add(cmd_sair);
 
 		controle = new ControleTelaMenu(this);
+		cmd_novo.addActionListener(controle);
 		cmd_cadsatro.addActionListener(controle);
 		cmd_intrucao.addActionListener(controle);
 		cmd_sair.addActionListener(controle);

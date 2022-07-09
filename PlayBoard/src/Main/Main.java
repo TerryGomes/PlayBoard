@@ -1,13 +1,13 @@
 package Main;
 
-import View.TelaMenu;
+import View.TelaDigitando;
 
 public class Main
 {
 
 	public static void main(String[] args)
 	{
-		new TelaMenu();
+		new TelaDigitando();
 	}
 
 }
